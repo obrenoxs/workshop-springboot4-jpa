@@ -1,8 +1,10 @@
-# Spring Boot Web Services Project
+# 🌐 Projeto Web Services com Spring Boot
 
-REST API developed during my studies of Java, Spring Boot and JPA/Hibernate.
+API REST desenvolvida durante meus estudos de **Java**, **Spring Boot** e **JPA/Hibernate**, com foco na construção de aplicações backend seguindo boas práticas de arquitetura e persistência de dados.
 
-## Technologies
+---
+
+# 🚀 Tecnologias Utilizadas
 
 * Java
 * Spring Boot
@@ -12,54 +14,70 @@ REST API developed during my studies of Java, Spring Boot and JPA/Hibernate.
 * PostgreSQL
 * Maven
 
-## Features
+---
 
-* User management
-* Order management
-* Product and Category management
-* Order items
-* Payment processing
-* CRUD operations
-* Exception handling
-* RESTful endpoints
+# ✨ Funcionalidades
 
-## Concepts Practiced
+* Gerenciamento de usuários
+* Gerenciamento de pedidos
+* Gerenciamento de produtos e categorias
+* Gerenciamento de itens do pedido
+* Processamento de pagamentos
+* Operações completas de CRUD
+* Tratamento de exceções
+* Endpoints RESTful
 
-* REST APIs
-* Dependency Injection
+---
+
+# 🏗️ Conceitos Aplicados
+
+Durante o desenvolvimento deste projeto foram praticados conceitos importantes de desenvolvimento backend, como:
+
+* Desenvolvimento de APIs REST
+* Injeção de Dependências (Dependency Injection)
 * Service Layer Pattern
 * Repository Pattern
-* Object Relational Mapping (ORM)
-* Entity Relationships
-* One-to-One
-* One-to-Many
-* Many-to-One
-* Many-to-Many
-* Composite Primary Keys
-* Exception Handling
-* Environment Profiles
+* Mapeamento Objeto-Relacional (ORM)
+* Relacionamentos entre entidades
+* Relacionamentos One-to-One
+* Relacionamentos One-to-Many
+* Relacionamentos Many-to-One
+* Relacionamentos Many-to-Many
+* Chaves Primárias Compostas (Composite Primary Keys)
+* Tratamento de Exceções
+* Perfis de Ambiente (Environment Profiles)
 
-## Database Relationships
+---
 
-The project includes several relationship mappings:
+# 🔗 Relacionamentos do Banco de Dados
 
-* User ↔ Orders
-* Order ↔ Payment
-* Product ↔ Category
-* Order ↔ OrderItem
-* Product ↔ OrderItem
+O projeto implementa diversos relacionamentos entre entidades, incluindo:
 
-## Databases
+* Usuário ↔ Pedidos
+* Pedido ↔ Pagamento
+* Produto ↔ Categoria
+* Pedido ↔ Item do Pedido
+* Produto ↔ Item do Pedido
 
-Development and testing were performed using:
+---
 
-* H2 Database
+# 🗄️ Bancos de Dados Utilizados
+
+Durante o desenvolvimento foram utilizados:
+
+* H2 Database (ambiente de desenvolvimento e testes)
 * PostgreSQL
 
-## Learning Objectives
+---
 
-This project was developed to strengthen backend development skills using Java and Spring Boot, focusing on REST APIs, database persistence, entity relationships and software architecture fundamentals.
+# 🎯 Objetivo do Projeto
 
-## Author
+Este projeto foi desenvolvido com o objetivo de consolidar conhecimentos em desenvolvimento backend utilizando Java e Spring Boot, aplicando conceitos fundamentais de APIs REST, persistência de dados, modelagem de entidades, relacionamentos entre tabelas e organização da arquitetura da aplicação.
 
-Breno Souza
+Além disso, serviu como base para o aprofundamento em boas práticas de desenvolvimento utilizando o ecossistema Spring.
+
+---
+
+# 👨‍💻 Autor
+
+**Breno Souza**
